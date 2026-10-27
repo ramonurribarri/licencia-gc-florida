@@ -1,0 +1,397 @@
+{
+ "version": 1,
+ "generado": "2026-10-27",
+ "total": 30,
+ "preguntas": [
+  {
+   "parte": "Business & Finance",
+   "q": "¿Cuál es el puntaje FICO mínimo con el que un solicitante cumple automáticamente el requisito de responsabilidad financiera ante el CILB?",
+   "ops": [
+    "580",
+    "620",
+    "660",
+    "700"
+   ],
+   "ok": 2,
+   "exp": "Con 660 o más se cumple la responsabilidad financiera. Por debajo de 660, la solicitud solo avanza tras completar el curso aprobado de responsabilidad financiera de 14 horas.",
+   "fuente": "Florida Contractors Manual · Requisitos CILB"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "Un proveedor de materiales sin contrato directo con el dueño de la obra quiere conservar su derecho de gravamen (lien). ¿Qué documento debe enviar y en qué plazo?",
+   "ops": [
+    "Claim of Lien, dentro de 30 días",
+    "Notice to Owner, dentro de 45 días desde el primer trabajo o entrega",
+    "Notice of Commencement, antes de empezar la obra",
+    "Affidavit del contratista, al pago final"
+   ],
+   "ok": 1,
+   "exp": "El Notice to Owner (NTO) es el aviso que protege el derecho de lien de subcontratistas y proveedores sin contrato directo con el dueño. Debe enviarse dentro de los 45 días desde el primer trabajo o la primera entrega de material.",
+   "fuente": "Florida Contractors Manual · Cap. 713, Lien Law"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "¿Dentro de qué plazo debe registrarse un Claim of Lien en Florida para que sea válido?",
+   "ops": [
+    "45 días desde la primera entrega",
+    "60 días desde la firma del contrato",
+    "90 días desde el último trabajo o la última entrega de material",
+    "1 año desde el inicio de la obra"
+   ],
+   "ok": 2,
+   "exp": "El Claim of Lien debe registrarse a más tardar 90 días después del último día de trabajo o de la última entrega de materiales o servicios en el proyecto.",
+   "fuente": "Florida Contractors Manual · Cap. 713, Lien Law"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "¿Quién registra el Notice of Commencement y cuándo?",
+   "ops": [
+    "El contratista, al recibir el primer pago",
+    "El dueño de la propiedad, antes de que comience la construcción",
+    "El arquitecto, al emitir el permiso",
+    "El subcontratista, dentro de 45 días"
+   ],
+   "ok": 1,
+   "exp": "El Notice of Commencement lo registra el dueño (o su agente autorizado) en los registros del condado antes de comenzar la obra; de él depende el cómputo de varios plazos del lien.",
+   "fuente": "Florida Contractors Manual · Cap. 713"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "Un contratista tiene un contrato de $800.000, costos totales estimados de $640.000 y costos incurridos a la fecha de $320.000. Con el método de porcentaje de avance, ¿cuánta ganancia bruta reconoce a la fecha?",
+   "ops": [
+    "$40.000",
+    "$80.000",
+    "$160.000",
+    "$320.000"
+   ],
+   "ok": 1,
+   "exp": "Porcentaje de avance = 320.000 ÷ 640.000 = 50%. Ingreso reconocido = 50% × 800.000 = 400.000. Ganancia bruta = 400.000 − 320.000 = $80.000.",
+   "fuente": "Builder's Guide to Accounting · Percentage-of-completion"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "¿Cómo se calcula el capital de trabajo (working capital) de una empresa?",
+   "ops": [
+    "Activos totales menos patrimonio",
+    "Activos corrientes menos pasivos corrientes",
+    "Ingresos menos costos de obra",
+    "Pasivos corrientes entre activos corrientes"
+   ],
+   "ok": 1,
+   "exp": "Working capital = activos corrientes − pasivos corrientes. Es la cifra que bancos y afianzadoras usan para medir si la empresa puede sostener la operación de sus proyectos.",
+   "fuente": "Builder's Guide to Accounting"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "Si una empresa tiene activos corrientes de $150.000 y pasivos corrientes de $100.000, su razón corriente (current ratio) es:",
+   "ops": [
+    "0,67",
+    "1,00",
+    "1,50",
+    "2,50"
+   ],
+   "ok": 2,
+   "exp": "Current ratio = activos corrientes ÷ pasivos corrientes = 150.000 ÷ 100.000 = 1,50. Mide la capacidad de pagar las obligaciones de corto plazo.",
+   "fuente": "Builder's Guide to Accounting"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "En la nómina de la construcción, los impuestos FICA corresponden a:",
+   "ops": [
+    "El seguro de desempleo federal y estatal",
+    "Seguro Social y Medicare, con aporte del empleado y del empleador",
+    "Un impuesto estatal de Florida sobre la obra",
+    "La prima de workers' compensation"
+   ],
+   "ok": 1,
+   "exp": "FICA financia el Seguro Social y Medicare. El empleador retiene la parte del empleado de su salario y aporta una parte igual por cuenta propia. El desempleo es FUTA (federal) y SUTA (estatal), conceptos distintos.",
+   "fuente": "Florida Contractors Manual · Nómina e impuestos"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "¿Quién paga la prima del seguro de compensación de trabajadores (workers' compensation)?",
+   "ops": [
+    "El empleado, por descuento de nómina",
+    "El empleador",
+    "El dueño del proyecto",
+    "Se reparte 50/50 entre empleador y empleado"
+   ],
+   "ok": 1,
+   "exp": "La prima de workers' compensation la paga íntegramente el empleador; no puede descontarse del salario del empleado. El contratista debe además verificar que sus subcontratistas tengan su cobertura vigente.",
+   "fuente": "Florida Contractors Manual · Seguros"
+  },
+  {
+   "parte": "Business & Finance",
+   "q": "La ecuación contable fundamental que sostiene todo balance general es:",
+   "ops": [
+    "Ingresos = gastos + utilidad",
+    "Activos = pasivos + patrimonio",
+    "Activos fijos = depreciación + valor en libros",
+    "Patrimonio = ingresos − retiros"
+   ],
+   "ok": 1,
+   "exp": "Activos = Pasivos + Patrimonio. Todo el balance general se construye sobre esa igualdad; si no cuadra, hay un error en los registros.",
+   "fuente": "Builder's Guide to Accounting"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "¿Qué contiene el documento AIA A201?",
+   "ops": [
+    "El acuerdo entre contratista y subcontratista",
+    "Las instrucciones a los licitantes",
+    "Las Condiciones Generales del Contrato para la Construcción",
+    "El formulario de solicitud de pago"
+   ],
+   "ok": 2,
+   "exp": "El A201-2017 son las General Conditions of the Contract for Construction: define roles, pagos, cambios, reclamos y terminación entre dueño, arquitecto y contratista.",
+   "fuente": "AIA A201-2017"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "El documento AIA A401 se utiliza para formalizar:",
+   "ops": [
+    "La relación entre el dueño y el arquitecto",
+    "El acuerdo entre el contratista y el subcontratista",
+    "Las instrucciones a los licitantes",
+    "El aviso de inicio de obra"
+   ],
+   "ok": 1,
+   "exp": "El A401-2017 es el Standard Form of Agreement Between Contractor and Subcontractor. No confundirlo con el A201 (condiciones generales) ni con el A701 (instrucciones a licitantes).",
+   "fuente": "AIA A401-2017"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "¿A qué documento AIA corresponde el A701-2018?",
+   "ops": [
+    "Instructions to Bidders (instrucciones a los licitantes)",
+    "General Conditions of the Contract",
+    "Agreement Between Owner and Contractor",
+    "Standard Form of Agreement Between Contractor and Subcontractor"
+   ],
+   "ok": 0,
+   "exp": "El A701-2018 son las Instructions to Bidders: reglas del proceso de licitación, formularios de propuesta y requisitos para los oferentes.",
+   "fuente": "AIA A701-2018"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "Para que una Change Order sea válida según el A201, debe estar firmada por:",
+   "ops": [
+    "Solo el contratista",
+    "El dueño y el contratista únicamente",
+    "El dueño, el arquitecto y el contratista",
+    "El subcontratista afectado y el contratista"
+   ],
+   "ok": 2,
+   "exp": "Una Change Order es un acuerdo escrito de cambio de alcance, precio o tiempo firmado por dueño, arquitecto y contratista. Si falta el acuerdo en precio o tiempo, el instrumento correcto es la Construction Change Directive.",
+   "fuente": "AIA A201-2017, Artículo 7"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "¿Qué es una Construction Change Directive?",
+   "ops": [
+    "Una orden del dueño y el arquitecto de ejecutar un cambio aunque aún no haya acuerdo sobre precio o tiempo",
+    "El documento de cierre del contrato",
+    "La lista de partidas pendientes al final de la obra",
+    "Una solicitud de información sobre los planos"
+   ],
+   "ok": 0,
+   "exp": "La Change Directive permite ordenar el cambio y seguir la obra cuando dueño y contratista aún no acuerdan el ajuste de precio o de plazo; el ajuste se resuelve después por los métodos del A201.",
+   "fuente": "AIA A201-2017, Artículo 7"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "Se alcanza el Substantial Completion cuando:",
+   "ops": [
+    "Se firma el contrato de construcción",
+    "La obra puede ocuparse o usarse para el propósito para el que fue construida",
+    "Se paga la última factura de materiales",
+    "Se completa el 50% del contrato"
+   ],
+   "ok": 1,
+   "exp": "Substantial completion es la etapa en que la obra (o una parte designada) está suficientemente completa para que el dueño la ocupe o la use según su propósito. Desde esa fecha corren garantías y se emite el certificado correspondiente.",
+   "fuente": "AIA A201-2017, Artículo 9"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "¿Quién emite el Certificate of Occupancy de un edificio nuevo?",
+   "ops": [
+    "El arquitecto del proyecto",
+    "El contratista general",
+    "La autoridad local de construcción (building official), tras las inspecciones finales",
+    "El DBPR del estado"
+   ],
+   "ok": 2,
+   "exp": "El Certificate of Occupancy lo emite la autoridad local con jurisdicción (building department / building official) cuando la obra aprueba las inspecciones finales y cumple el código.",
+   "fuente": "Florida Building Code — Building"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "Según las condiciones generales estándar, la gestión y obtención del permiso de construcción (building permit) recae típicamente en:",
+   "ops": [
+    "El dueño, siempre y sin excepción",
+    "El contratista, que lo tramita y paga como parte de su administración del contrato",
+    "El subcontratista principal",
+    "La afianzadora del proyecto"
+   ],
+   "ok": 1,
+   "exp": "En el esquema AIA, el contratista asegura y paga el building permit y demás permisos de construcción (distinto de los cargos del dueño, como el registro del Notice of Commencement).",
+   "fuente": "AIA A201-2017"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "¿Qué es el punch list?",
+   "ops": [
+    "La lista de licitantes que presentaron oferta",
+    "La lista de partidas incompletas o defectuosas que deben corregirse antes del pago final y la aceptación",
+    "El registro de accidentes de la obra",
+    "El cronograma de inspecciones del condado"
+   ],
+   "ok": 1,
+   "exp": "El punch list se genera en la inspección de substantial completion: enumera lo incompleto o defectuoso que el contratista debe corregir para cerrar el contrato y liberar el pago final y la retención.",
+   "fuente": "AIA A201-2017 · Administración de contratos"
+  },
+  {
+   "parte": "Contract Administration",
+   "q": "Los liquidated damages en un contrato de construcción son:",
+   "ops": [
+    "Una multa que impone el condado por violaciones de código",
+    "Una suma diaria pactada en el contrato como compensación por el atraso en entregar la obra",
+    "El costo de reparar daños a propiedades vecinas",
+    "La retención del 10% sobre cada pago"
+   ],
+   "ok": 1,
+   "exp": "Los liquidated damages son la cantidad por día de atraso que las partes acuerdan por adelantado en el contrato como estimación razonable del daño del dueño por la entrega tardía.",
+   "fuente": "AIA A201-2017 · Florida Contractors Manual"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Según OSHA 29 CFR 1926, en construcción la protección contra caídas debe proveerse cuando el trabajador está a una altura de:",
+   "ops": [
+    "4 pies o más",
+    "6 pies o más",
+    "10 pies o más",
+    "Solo en techos inclinados"
+   ],
+   "ok": 1,
+   "exp": "La regla general de construcción (1926.501) exige protección contra caídas a los 6 pies: barandas, redes de seguridad o sistema personal de detención de caídas.",
+   "fuente": "OSHA 29 CFR 1926, Subparte M"
+  },
+  {
+   "parte": "Project Management",
+   "q": "En una excavación, los sistemas de protección contra derrumbes (taludes, entibado o cajones de zanja) son obligatorios a partir de una profundidad de:",
+   "ops": [
+    "3 pies",
+    "4 pies",
+    "5 pies",
+    "8 pies"
+   ],
+   "ok": 2,
+   "exp": "OSHA exige sistema de protección en zanjas de 5 pies o más de profundidad (y también en menores si la persona competente detecta riesgo de derrumbe).",
+   "fuente": "OSHA 29 CFR 1926, Subparte P"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Una escalera portátil usada para acceder a un nivel superior debe extenderse por encima de ese nivel al menos:",
+   "ops": [
+    "1 pie (12 pulgadas)",
+    "2 pies (24 pulgadas)",
+    "3 pies (36 pulgadas)",
+    "No necesita extenderse"
+   ],
+   "ok": 2,
+   "exp": "Los rieles laterales deben extenderse mínimo 3 pies (36 pulgadas) sobre la superficie de desembarco para dar un agarre seguro al subir y bajar.",
+   "fuente": "OSHA 29 CFR 1926.1053"
+  },
+  {
+   "parte": "Project Management",
+   "q": "La prueba de asentamiento (slump test) del concreto fresco mide:",
+   "ops": [
+    "La resistencia a compresión a 28 días",
+    "La consistencia y trabajabilidad de la mezcla",
+    "El contenido de aire del concreto endurecido",
+    "El tiempo de fraguado final"
+   ],
+   "ok": 1,
+   "exp": "El slump test mide la consistencia/trabajabilidad del concreto fresco. La resistencia se verifica con cilindros de prueba rotos en laboratorio, no con el cono de asentamiento.",
+   "fuente": "Principles & Practices of Commercial Construction"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Una barra de refuerzo grado 60 tiene una resistencia de fluencia (yield strength) de:",
+   "ops": [
+    "6.000 psi",
+    "40.000 psi",
+    "60.000 psi",
+    "600.000 psi"
+   ],
+   "ok": 2,
+   "exp": "El número del grado indica la fluencia en miles de psi: grado 60 = 60.000 psi. Es el dato que el examen espera que leas directo de la designación de la barra.",
+   "fuente": "Principles & Practices of Commercial Construction"
+  },
+  {
+   "parte": "Project Management",
+   "q": "En un programa CPM, la ruta crítica es:",
+   "ops": [
+    "La ruta con más actividades",
+    "La secuencia de actividades más larga, que determina la duración mínima del proyecto",
+    "La ruta con mayor costo acumulado",
+    "La lista de actividades ya completadas"
+   ],
+   "ok": 1,
+   "exp": "La ruta crítica es la cadena más larga de actividades dependientes; cualquier atraso en ella atrasa el proyecto entero, porque sus actividades tienen holgura cero.",
+   "fuente": "Principles & Practices of Commercial Construction · Programación"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Sobre las cerchas (trusses) de madera con placas metálicas, la guía BCSI establece que:",
+   "ops": [
+    "Pueden cortarse en obra para ajustarlas al diseño",
+    "No deben cortarse ni modificarse sin la aprobación de un profesional de diseño/ingeniería",
+    "Solo requieren arriostramiento al final de la instalación",
+    "Su arriostramiento temporal es opcional"
+   ],
+   "ok": 1,
+   "exp": "Las cerchas son componentes diseñados por ingeniería: cortarlas, perforarlas o modificarlas sin aprobación invalida el diseño. La BCSI regula su manejo, instalación y arriostramiento temporal y permanente.",
+   "fuente": "BCSI — Building Component Safety Information"
+  },
+  {
+   "parte": "Project Management",
+   "q": "¿Por qué el Florida Building Code pone tanto peso en las cargas de viento?",
+   "ops": [
+    "Porque Florida prohíbe los techos planos",
+    "Porque la trayectoria de cargas (load path) debe llevar las fuerzas del huracán desde el techo hasta la cimentación en una zona de alta velocidad de viento",
+    "Solo aplica a edificios frente al mar",
+    "Es un requisito únicamente comercial"
+   ],
+   "ok": 1,
+   "exp": "Florida es zona de huracanes: el código exige que componentes, conexiones y la trayectoria continua de cargas resistan las presiones de viento de diseño, del techo a la cimentación.",
+   "fuente": "Florida Building Code — Building"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Al recibir un tema de energía en el examen (envolvente, aislamiento, eficiencia), el volumen del FBC donde se busca la respuesta es:",
+   "ops": [
+    "FBC — Accessibility",
+    "FBC — Existing Building",
+    "FBC — Energy Conservation",
+    "FBC — Residential, siempre"
+   ],
+   "ok": 2,
+   "exp": "El volumen Energy Conservation regula la envolvente térmica, el aislamiento y la eficiencia de sistemas. Saber en qué volumen vive cada tema es la mitad de la técnica de examen.",
+   "fuente": "Florida Building Code — Energy Conservation"
+  },
+  {
+   "parte": "Project Management",
+   "q": "Un juego de planos trae una planta dibujada a escala 1/4\" = 1'-0\". Una pared que en el papel mide 3 pulgadas mide en la obra real:",
+   "ops": [
+    "3 pies",
+    "6 pies",
+    "12 pies",
+    "24 pies"
+   ],
+   "ok": 2,
+   "exp": "A 1/4\" = 1 pie, cada pulgada en papel equivale a 4 pies reales. 3 pulgadas × 4 = 12 pies. La lectura de escalas es parte fija del bloque de planos y especificaciones.",
+   "fuente": "Principles & Practices of Commercial Construction · Lectura de planos"
+  }
+ ]
+}
