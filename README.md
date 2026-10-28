@@ -1,21 +1,38 @@
-# Licencia de General Contractor en Florida — página y banco de preguntas
+# Licencia GC Florida — Ruta, curso y simulacro
 
-Página de estudio para la licencia estatal Certified General Contractor (CGC) de Florida, ante el DBPR / Construction Industry Licensing Board (CILB). Incluye la ruta de la licencia en 8 pasos, el curso de capacitación en 8 módulos, el plan de estudio de 12 semanas, la lista oficial de libros del examen y un simulacro de práctica de 30 preguntas.
+Página de estudio para la licencia **Certified General Contractor (CGC)** de Florida (DBPR / CILB), con curso completo bilingüe y simulacro en formato real.
 
-## Página pública
+**Página en vivo:** https://licencia-gc-florida.pages.dev (Cloudflare Pages)
 
-https://licencia-gc-florida.pages.dev/ — alojada en Cloudflare Pages (cuenta de Ramón, ingreso con su Google).
+## El banco de preguntas
 
-## Archivos
+330 preguntas originales **verificadas contra fuentes públicas abiertas** (Estatutos de Florida caps. 489, 713, 455 y 255; reglas 61G4; OSHA 29 CFR 1926; documentos AIA A101/A102/A201/A401/A701 citados por artículo; Florida Building Code), cada una con explicación y fuente, en **español e inglés**:
 
-- `index.html` — la página completa en un solo archivo (HTML, CSS y JavaScript; sin dependencias externas).
-- `banco-preguntas.sql` — la fuente base del simulacro en SQL (compatible con SQLite y Cloudflare D1): tablas `fuentes_oficiales`, `partes`, `preguntas` y `opciones`, con las 30 preguntas verificadas, cada una con su explicación y su fuente oficial citada.
-- `banco-preguntas.json` — el mismo banco en formato JSON.
+- Business & Finance: 150 (120 del examen + 30 de reserva)
+- Contract Administration: 90 (60 + 30 de reserva)
+- Project Management: 90 (60 + 30 de reserva)
 
-## Regla del banco
+Regla del banco: ninguna pregunta entra sin fuente corroborada. Los manuales comerciales (Florida Contractors Manual, AIA, Builder's Guide to Accounting) **no se reproducen** por derechos de autor; se citan por libro y capítulo. Las claves de respuesta pasaron una auditoría completa contra sus propias explicaciones (330/330).
 
-Ninguna pregunta entra sin fuente oficial citada y respuesta corroborada contra esa fuente. Las leyes citadas (Estatutos de Florida caps. 489, 713 y 455, reglas 61G4, OSHA 29 CFR 1926) son textos públicos. Los manuales comerciales de la lista oficial del CILB (Florida Contractors Manual, documentos AIA, Builder's Guide to Accounting, etc.) se referencian por libro y tema; su texto no se reproduce por derechos de autor.
+Archivos:
 
-## Base de datos
+- `banco-final-330.json` — el banco maestro bilingüe.
+- `banco-final-330.sql` — el mismo banco como SQL (SQLite / Cloudflare D1), con tablas de fuentes, partes e intentos de progreso.
+- `curso-bf.json`, `curso-ca.json`, `curso-pm.json` — el curso: 38 temas y 86 lecciones bilingües que enseñan cada regla, plazo y fórmula del banco, con la asignación pregunta → tema.
+- `worker-api-preguntas-v3.js` — código de la API (Cloudflare Worker).
+- `index.html` — la página completa (curso + práctica + simulacro + progreso).
 
-El banco está cargado en Cloudflare D1 (misma cuenta que la página) y la página consulta esa base para presentar y corroborar las preguntas del simulacro. Para ampliar el banco se agregan registros a las tablas `preguntas` y `opciones`, no se reescribe la página.
+## La API y la base de datos
+
+- Base **Cloudflare D1** `banco-preguntas-gc` con las 330 preguntas, sus 1.320 opciones y la tabla `intentos` que guarda el progreso.
+- API pública: https://api-preguntas-gc.ing-urribarri.workers.dev
+  - `GET /preguntas` — el banco completo bilingüe con su tema por pregunta.
+  - `POST /resultados` — registra un intento (modo, totales, detalle por parte y por tema).
+  - `GET /progreso` — resumen e historial de intentos.
+
+## Cómo funciona el simulacro
+
+- **Modo examen (formato real):** Business & Finance sortea 120 de sus 150 en 6 h 30, Contract Administration 60 de 90 en 4 h 30 y Project Management 60 de 90 en 4 h 30; cada parte con su cuenta regresiva que arranca al empezar la parte y entrega automática al llegar a cero; aprobación con 70% por parte.
+- **Modo práctica:** por parte o por tema, con explicación y fuente inmediatas.
+- Cada intento sortea preguntas desde la reserva y mezcla preguntas y opciones: ningún intento sale igual a otro.
+- Selector **Español | English** para toda la página: interfaz, curso, preguntas y explicaciones.
